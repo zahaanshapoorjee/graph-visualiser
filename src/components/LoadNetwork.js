@@ -145,7 +145,7 @@ export default class LoadNetwork extends React.Component {
     const disabled = progressVisible && !progressError;
 
     const background = {
-      padding: "100px 0 100px 0",
+      padding: "200px 200px 200px 200px",
       background: `url(${Background}) repeat`,
       // backgroundSize: "cover, cover",
       // backgroundPosition: "center top",
@@ -160,7 +160,7 @@ export default class LoadNetwork extends React.Component {
           style={{ padding: "50px 0px" }}
           padded="very"
         >
-          <Label attached="top right">v {process.env.REACT_APP_VERSION}</Label>
+          {/* <Label attached="top right">v1.0</Label> */}
 
           <Step.Group>
             <Step
