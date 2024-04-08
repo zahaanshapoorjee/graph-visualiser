@@ -2,7 +2,7 @@
 
 Graph Visualiser for Independent Study Module (ISM) with Professor Rintu Kutum
 
-## Author
+## Authors
 
 Zahaan Shapoorjee   
 Aman Narendra Ali
