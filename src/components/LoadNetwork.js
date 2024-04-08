@@ -218,16 +218,18 @@ export default class LoadNetwork extends React.Component {
               active={!disabled}
               title="Load your own ftree file"
               htmlFor="upload"
+              
             />
           </Step.Group>
-          <input
-            style={{ visibility: "hidden" }}
-            type="file"
-            id="upload"
-            onChange={() => this.loadNetwork(this.input.files[0])}
-            accept=".ftree"
-            ref={(input) => (this.input = input)}
-          />
+              <input
+              style={{ display: 'none' }}
+              type="file"
+              id="upload"
+              onChange={() => this.loadNetwork(this.input.files[0])}
+              accept=".ftree"
+              ref={(input) => (this.input = input)}
+            />
+
 
           {progressVisible && (
             <div style={{ padding: "50px 100px 0" }}>

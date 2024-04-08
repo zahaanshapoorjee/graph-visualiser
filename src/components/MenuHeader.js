@@ -1,5 +1,6 @@
 import React from "react";
 import { Header, Image } from "semantic-ui-react";
+import Logo from "../images/ashokalogo.png"
 
 
 export default function MenuHeader() {
@@ -7,12 +8,11 @@ export default function MenuHeader() {
     <Image
       size="mini"
       verticalAlign="middle"
-      src="//www.mapequation.org/assets/img/twocolormapicon_whiteboarder.svg"
-      alt="mapequation-icon"
+      src={Logo}
     />
     <div className="content">
             <span className="brand">
-                <span className="brand-infomap">Infomap</span> <span className="brand-nn">Network Navigator</span>
+                <span className="brand-infomap">Infomap</span> <span className="brand-nn">Graph Visualizer</span>
             </span>
     </div>
   </Header>;

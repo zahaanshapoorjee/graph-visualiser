@@ -17,12 +17,12 @@ body {
 }
 
 a, a:link, a:visited {
-    color: #128BC2;
+    color: #c01725;
     text-decoration: none;
 }
 
 a:active, a:hover {
-    color: #096992;
+    color: #c01725;
 }
 
 .ui.grid {
@@ -31,7 +31,7 @@ a:active, a:hover {
 
 .ui.header {
     font-weight: 300;
-    color: #128BC2;
+    color: #c01725;
 }
 
 code {
