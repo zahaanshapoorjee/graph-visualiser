@@ -12,7 +12,7 @@ export default function MenuHeader() {
     />
     <div className="content">
             <span className="brand">
-                <span className="brand-infomap">Infomap</span> <span className="brand-nn">Graph Visualizer</span>
+                <span className="brand-infomap"></span> <span className="brand-nn">Graph Visualizer</span>
             </span>
     </div>
   </Header>;
