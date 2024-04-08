@@ -1,9 +1,8 @@
-# Infomap Network Navigator
+# Graph Visualiser
 
-Visualize Infomap hierarchical network partitions.
-
-Described in [Eriksson, Anton. "Interactive visualization of community structure in complex networks." (2018).](http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-148551)
+Graph Visualiser for Independent Study Module (ISM) with Professor Rintu Kutum
 
 ## Author
 
-Anton Holmgren
+Zahaan Shapoorjee   
+Aman Narendra Ali
