@@ -10,7 +10,7 @@ import {
   Segment,
   Step,
 } from "semantic-ui-react";
-import Background from "../images/Background.svg";
+import Background from "../images/background.jpg";
 import parseFTree from "../io/ftree";
 import networkFromFTree from "../io/network-from-ftree";
 import parseFile from "../io/parse-file";
@@ -146,9 +146,9 @@ export default class LoadNetwork extends React.Component {
 
     const background = {
       padding: "100px 0 100px 0",
-      background: `linear-gradient(hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(${Background}) no-repeat`,
-      backgroundSize: "cover, cover",
-      backgroundPosition: "center top",
+      background: `url(${Background}) repeat`,
+      // backgroundSize: "cover, cover",
+      // backgroundPosition: "center top",
     };
 
     return (
@@ -166,8 +166,8 @@ export default class LoadNetwork extends React.Component {
             <Step
               disabled={disabled}
               icon="book"
-              title="Load example"
-              description="Citation network"
+              title="Load an example file provided by us!"
+              description=""
               link
               onClick={this.loadExampleData}
             />
@@ -194,8 +194,8 @@ export default class LoadNetwork extends React.Component {
                   <Step.Content>
                     <Step.Title>
                       Open from{" "}
-                      <span className="brand brand-infomap">Infomap</span>{" "}
-                      <span className="brand brand-nn">Online</span>
+                      <span className="brand brand-infomap"></span>{" "}
+                      <span className="brand brand-nn"></span>
                     </Step.Title>
                   </Step.Content>
                 </Step>
@@ -210,27 +210,13 @@ export default class LoadNetwork extends React.Component {
           />
 
           <Step.Group ordered>
-            <Step
-              disabled={disabled}
-              link
-              as="a"
-              href="//www.mapequation.org/infomap"
-            >
-              <Step.Content>
-                <Step.Title>Cluster network with Infomap</Step.Title>
-                <Step.Description>
-                  Command line version or{" "}
-                  <span className="brand brand-infomap">Infomap</span>{" "}
-                  <span className="brand brand-nn">Online</span>
-                </Step.Description>
-              </Step.Content>
-            </Step>
+      
             <Step
               disabled={disabled}
               as="label"
               link
               active={!disabled}
-              title="Load ftree file"
+              title="Load your own ftree file"
               htmlFor="upload"
             />
           </Step.Group>

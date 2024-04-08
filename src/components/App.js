@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Documentation from "./Documentation";
 import Header from "./Header";
 import Layout from "./Layout";
 import LoadNetwork from "./LoadNetwork";
@@ -17,7 +16,6 @@ export default function App() {
     return <React.Fragment>
       <Header/>
       <LoadNetwork onLoad={setState}/>
-      <Documentation/>
     </React.Fragment>;
   }
 
