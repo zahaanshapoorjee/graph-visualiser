@@ -34,7 +34,7 @@ export default function Sidebar(props) {
     as={Menu}
     animation='overlay'
     width='wide'
-    direction='right'
+    direction='left'
     visible={sidebarVisible}
     vertical
   >
